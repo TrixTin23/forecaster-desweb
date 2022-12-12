@@ -61,7 +61,7 @@ function App() {
       )}
 
       <ToastContainer autoClose={5000} theme="colored" newestOnTop={true} />
-      <SearchArticles/>
+      <SearchArticles />
       
     </div>
   );

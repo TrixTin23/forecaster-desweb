@@ -3,7 +3,7 @@ import {UilSearch} from "@iconscout/react-unicons"
 
 export default function SearchArticles() {
   return (
-    <div className='my-3'>
+    <div className='my-4'>
         <div>
             <h1 className='flex items-center justify-center text-2xl text-white font-poppin'>
                 Weather Articles
