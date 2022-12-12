@@ -1,3 +1,8 @@
-# forecaster-desweb
-1. npm i (buat download dependencies)
-2. npm start 
+# How to use the project
+
+- Clone
+- Install dependencies (npm i)
+- Get your API key and add to weatherService.js
+- Enjoy!!
+
+> Leave a star :)
