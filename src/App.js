@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/navbar";
+import SearchArticles from "./components/SearchArticles";
 
 function App() {
   const [query, setQuery] = useState({ q: "balikpapan" });
@@ -48,7 +49,7 @@ function App() {
       <Navbar/>
       <TopButtons setQuery={setQuery} />
       <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
-
+   
       {weather && (
         <div>
           <TimeAndLocation weather={weather} />
@@ -60,6 +61,8 @@ function App() {
       )}
 
       <ToastContainer autoClose={5000} theme="colored" newestOnTop={true} />
+      <SearchArticles/>
+      
     </div>
   );
 }
